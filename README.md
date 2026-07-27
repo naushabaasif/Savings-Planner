@@ -1,6 +1,7 @@
 # Smart Savings Planner
 
 A Java console application that applies **Discrete Mathematical Structures** to solve a real-world financial planning problem. The project models monthly savings using **Arithmetic Progressions (AP)** and **Finite Arithmetic Series** to help users plan and predict their savings.
+
 > Developed as a course project for **CSC1201 – Discrete Mathematical Structures** at **SZABIST**.
 
 ---
@@ -29,47 +30,51 @@ This project is based on the following discrete mathematics topics:
 - Discrete Summation
 
 ### Arithmetic Series Formula
-S_n = (n/2)*[2a + (n-1)d]
+
+```
+Sₙ = (n/2)[2a + (n − 1)d]
+```
 
 Where:
 
 - **a** = Initial monthly savings
 - **d** = Monthly increase
 - **n** = Number of months
-- **Sₙ** = Total savings after n months
+- **Sₙ** = Total savings after *n* months
 
 The application also derives the formula to calculate the required monthly increase (**d**) when the savings target and duration are known.
 
 ---
 
-# Features
+## Features
+
 ### Monthly Savings Planner
 
 Given:
+
 - Current monthly savings
 - Target savings
 - Number of months
 
 The application calculates:
+
 - Required monthly increase
 - Month-by-month savings table
 - Total accumulated savings
 
----
-
 ### Month Prediction
 
 Given:
+
 - Current monthly savings
 - Monthly increase
 - Target amount
 
 The application calculates:
+
 - Number of months required
 - Running savings total
 - Final accumulated savings
-
----
 
 ### Input Validation
 
@@ -84,7 +89,7 @@ The program validates all user inputs by ensuring:
 
 ## Sample Menu
 
-```
+```text
 ===WELCOME TO SAVINGS PLANNER===
 
 1. Monthly Savings Plan
@@ -97,7 +102,7 @@ The program validates all user inputs by ensuring:
 ## Technologies Used
 
 - Java
-- Object-Oriented Programming
+- Object-Oriented Programming (OOP)
 - Scanner Class
 - Console-based Interface
 
@@ -105,24 +110,44 @@ The program validates all user inputs by ensuring:
 
 ## Project Structure
 
-```
-Smart-Savings-Planner/
+```text
+Savings-Planner/
 │
-├── SavingPlanner.java
 ├── README.md
-├── report/
-│   └── Smart Savings Planner - Report.pdf
+├── SavingPlanner.java
+├── Smart Savings Planner - Report.pdf
 └── screenshots/
+    ├── menu.png
+    ├── monthly-savings-plan.png
+    └── month-predictor.png
 ```
+
+---
+
+## Application Screenshots
+
+Below are sample outputs demonstrating the application's primary features.
+
+### Main Menu
+
+![Main Menu](screenshots/menu.png)
+
+### Monthly Savings Planner
+
+![Monthly Savings Planner](screenshots/monthly-savings-plan.png)
+
+### Month Predictor
+
+![Month Predictor](screenshots/month-predictor.png)
 
 ---
 
 ## Learning Outcomes
 
-This project demonstrates practical implementation of:
+This project demonstrates the practical implementation of:
 
 - Arithmetic Progressions
-- Finite Series
+- Finite Arithmetic Series
 - Algorithm Design
 - Mathematical Modeling
 - Java Programming
@@ -136,10 +161,10 @@ This project demonstrates practical implementation of:
 
 Potential enhancements include:
 
-- Java Swing/JavaFX graphical interface
+- Java Swing or JavaFX graphical user interface
 - Savings visualization using charts
 - Interest rate calculations
-- Savings history
+- Savings history tracking
 - Export plans as PDF
 - Currency selection
 - File-based data storage
@@ -148,35 +173,31 @@ Potential enhancements include:
 
 ## Report
 
-The complete project documentation, including:
+The repository also includes the complete project report containing:
 
 - Introduction
 - Mathematical Background
 - Formula Derivation
-- Algorithm Design
+- Algorithm Description
 - Sample Outputs
 - Conclusion
 
-is available in:
-
-```
-report/Smart Savings Planner - Report.pdf
-```
+**Project Report:** `Smart Savings Planner - Report.pdf`
 
 ---
 
 ## Authors
 
-**Naushaba Asif**
-Computer Science Student
+**Naushaba Asif**  
+Computer Science Student  
+SZABIST Karachi
+
+**Rohban Tariq**  
+Computer Science Student  
 SZABIST Karachi
 
 ---
 
-**Rohban Tariq**
-Computer Science Student
-SZABIST Karachi
-
----
 ## License
+
 This project was developed for educational purposes as part of the **CSC1201 – Discrete Mathematical Structures** course.
