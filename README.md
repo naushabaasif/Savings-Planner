@@ -189,11 +189,11 @@ The repository also includes the complete project report containing:
 ## Authors
 
 **Naushaba Asif**  
-Computer Science Student  
+3rd Semester, Computer Science Student  
 SZABIST Karachi
 
 **Rohban Tariq**  
-Computer Science Student  
+3rd Semester, Computer Science Student  
 SZABIST Karachi
 
 ---
