@@ -114,8 +114,10 @@ The program validates all user inputs by ensuring:
 Savings-Planner/
 │
 ├── README.md
-├── SavingPlanner.java
 ├── Smart Savings Planner - Report.pdf
+└── src/
+├── SavingPlanner.java
+├── SavingsPlannerGUI.java
 └── screenshots/
     ├── menu.png
     ├── monthly-savings-plan.png
