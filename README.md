@@ -116,7 +116,7 @@ Savings-Planner/
 ├── README.md
 ├── Smart Savings Planner - Report.pdf
 └── src/
-├── SavingPlanner.java
+├── SavingsPlanner.java
 ├── SavingsPlannerGUI.java
 └── screenshots/
     ├── menu.png
